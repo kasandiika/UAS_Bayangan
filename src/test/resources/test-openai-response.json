@@ -1,0 +1,23 @@
+{
+  "id": "chatcmpl-test-response",
+  "object": "chat.completion",
+  "created": 1745182545,
+  "model": "gpt-4o-mini",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Paris",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11,
+    "completion_tokens": 13,
+    "total_tokens": 24
+  }
+}
